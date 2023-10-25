@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weekly Contest</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <p class="main-text">Filter Ui Cards via their profession.</p>
+      <div class="input-cover">
+        <select>
+          <option value="" selected disabled hidden>Profession</option>
+          <option value="developer">Developer</option>
+          <option value="admin">Admin</option>
+        </select>
+      </div>
+      <div class="pro-container">
+        <div class="pro-row">
+          <p class="pro-index">1</p>
+          <p class="pro-name">Name: John</p>
+          <p class="pro-work">Profession: Developer</p>
+          <p class="pro-age">Age: 18</p>
+        </div>
+      </div>
+      <input type="submit" value="Filter" class="sub sub-1" /><br /><br />
+      <br />
+      <div class="pro-adder">
+        <h4 class="pro-add-title">Add A New User</h4>
+        <br />
+        <div class="input-container">
+          <div class="label-cover">
+            <label for="name">Enter Name</label>
+            <input type="text" id="name" />
+          </div>
+          <div class="label-cover">
+            <label for="proff">Enter Profession</label>
+            <input type="text" id="proff" />
+          </div>
+          <div class="label-cover">
+            <label for="age">Enter Age</label>
+            <input type="number" id="age" />
+          </div>
+        </div>
+        <input type="submit" value="Add User" class="sub-2" />
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
